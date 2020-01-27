@@ -13,9 +13,9 @@ public class SimpleEliza {
         Scanner in = new Scanner(System.in);
 
         String userInput = "";
-
+        System.out.print("Good day. What is your problem?");
         do {
-            System.out.print("Good day. What is your problem? Enter your response here or Q to quit: ");
+            System.out.print("Enter your response here or Q to quit: ");
             userInput = in.nextLine();
             if (userInput.equalsIgnoreCase("Q")
                     || userInput.equalsIgnoreCase("I am feeling great")) {
